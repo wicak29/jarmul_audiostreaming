@@ -10,7 +10,7 @@ class C_home extends CI_Controller
 
 	public function index()
 	{
-		$this->load->view('on_air', array('error' => ' ' ));
+		$this->load->view('example1', array('error' => ' ' ));
 	}
 
 	public function page_1()

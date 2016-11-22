@@ -32,7 +32,7 @@
 						<div class="sl-slide-inner" style="background-color: #29B669;">
 							<div style="width: 600px; margin: 100px auto auto auto; ">
 								<h1 style="text-align: center; color: white; ">T C T R E A M I N G</h1>
-								<p style="text-align: center; color: white; ">- audio -</p>
+								<p style="text-align: center; color: white; ">- music stream playlist -</p>
 								<div class="panel panel-default" style="margin-top: 0px;">
 						          <!-- <div class="panel-heading" style="text-align: center;">T C R A D I O</div> -->
 						          <div class="panel-body" style="background-color: #29B669;">
@@ -55,7 +55,7 @@
 						<div class="sl-slide-inner" style="background-color: #976D9E;">
 							<div style="width: 600px; margin: 100px auto auto auto; ">
 								<h1 style="text-align: center; color: white; ">T C T R E A M I N G</h1>
-								<p style="text-align: center; color: white; ">- music playlist -</p>
+								<p style="text-align: center; color: white; ">- audio -</p>
 								<div class="panel panel-default" style="margin-top: 10px;;">
 						          <!-- <div class="panel-heading" style="text-align: center;">T C R A D I O</div> -->
 						          <div class="panel-body" style="background-color: #976D9E;">

@@ -3,7 +3,7 @@
     <head>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Fullscreen Slit Slider with CSS3 and jQuery</title>
+        <title>TCTREAMING | Audio Streaming App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Fullscreen Slit Slider with CSS3 and jQuery" />
         <meta name="keywords" content="slit slider, plugin, css3, transitions, jquery, fullscreen, autoplay" />
@@ -29,20 +29,20 @@
 				<div class="sl-slider">
 				
 					<div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-						<div class="sl-slide-inner" style="background-color: #66CEFF;">
+						<div class="sl-slide-inner" style="background-color: #29B669;">
 							<div style="width: 600px; margin: 100px auto auto auto; ">
 								<h1 style="text-align: center; color: white; ">T C T R E A M I N G</h1>
 								<p style="text-align: center; color: white; ">- audio -</p>
-								<div class="panel panel-default" style="margin-top: 10px;">
+								<div class="panel panel-default" style="margin-top: 0px;">
 						          <!-- <div class="panel-heading" style="text-align: center;">T C R A D I O</div> -->
-						          <div class="panel-body" style="background-color: #66CEFF;">
+						          <div class="panel-body" style="background-color: #29B669;">
 						            <div class="col-sm-12">
 							          	<?php echo $error;?> <!-- Error Message will show up here -->
-							          	<div style="text-align:center; margin-bottom: 70px;">
-							          		<img src="<?php echo base_url('uploads/cat.gif'); ?>">
+							          	<div style="text-align:center; margin-bottom: 0px;">
+							          		<img src="<?php echo base_url('uploads/cat2.gif'); ?>" style="width: 500px;">
 							          	</div>
 										<audio controls style="width: 100%; padding: 10px;">
-											<source src="http://10.151.36.38:8000/mystream.mp3"> 
+											<source src="http://10.151.36.29:8000/myradio.mp3"> 
 										</audio>
 							          </div>
 						          </div>
@@ -65,7 +65,7 @@
 							          		<img src="<?php echo base_url('uploads/cat1.gif'); ?>" style="width: 500px;">
 							          	</div>
 										<audio controls style="width: 100%; padding: 10px; margin-top: -50px;">
-											<source src="http://10.151.36.29:8000/myradio.mp3"> 
+											<source src="http://10.151.36.38:8000/mystream.mp3"> 
 										</audio>
 							          </div>
 						          </div>
@@ -74,13 +74,28 @@
 						</div>
 					</div>
 					
-					<!-- <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-						<div class="sl-slide-inner">
-							<div class="deco" data-icon="O"></div>
-							<h2>Dum spiro, spero</h2>
-							<blockquote><p>Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.</p><cite>Dame Jane Morris Goodall</cite></blockquote>
+					<div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+						<div class="sl-slide-inner" style="background-color: #64D9D6;">
+							<div style="width: 600px; margin: 100px auto auto auto; ">
+								<h1 style="text-align: center; color: white; ">T C T R E A M I N G</h1>
+								<p style="text-align: center; color: white; ">- progresive download -</p>
+								<div class="panel panel-default" style="margin-top: 10px;;">
+						          <!-- <div class="panel-heading" style="text-align: center;">T C R A D I O</div> -->
+						          <div class="panel-body" style="background-color: #64D9D6;">
+						            <div class="col-sm-12">
+							          	<?php echo $error;?> <!-- Error Message will show up here -->
+							          	<div style="text-align:center; margin-bottom: 10px;">
+							          		<img src="<?php echo base_url('uploads/cat4.gif'); ?>" style="width: 500px;">
+							          	</div>
+										<audio controls style="width: 100%; padding: 10px; margin-top: -50px;">
+											<source src="<?php echo base_url('uploads/musics/start.mp3'); ?>"> 
+										</audio>
+							          </div>
+						          </div>
+						        </div>
+							</div>
 						</div>
-					</div> -->
+					</div>
 					
 					<!-- <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
@@ -106,6 +121,7 @@
 
 				<nav id="nav-dots" class="nav-dots">
 					<span class="nav-dot-current"></span>
+					<span></span>
 					<span></span>
 				</nav>
 

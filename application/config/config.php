@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://10.151.43.58/audiostreaming/';
+$config['base_url'] = 'http://10.151.43.214/audiostreaming/';
 
 /*
 |--------------------------------------------------------------------------
